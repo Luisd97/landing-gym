@@ -1,0 +1,6 @@
+red: #e74c3c
+black: #000000
+
+fonts
+Headings: roboto condensed bold  h1:106px -h2:46px
+Text: roboto regular 24px - line-height - 34px

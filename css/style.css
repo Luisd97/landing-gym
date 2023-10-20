@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botonera a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 400;
+    color: black;
+}
+
+header img{
+    width: 100%;
+}
+
+/* inicia intro */
+.intro{
+    background-color: white;
+    transform: translateY(-100px);
+    padding: 30px 0;
+    box-shadow: -1px 3px 25px -4px rgba(122,115,122,1);
+}
+    .intro figure{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .intro h2{
+        font-weight: 700;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+    .intro a{
+        color: #e74c3c;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+@media (width < 769px){
+    .intro{
+        transform: none;
+        margin-top: 30px;
+        box-shadow: none;
+    }
+}
+
+/* intro texto */
+
+.intro-text h3{
+    color: #e74c3c;
+    font-weight:700;
+    font-size: 2.4em;
+    /* text-transform: uppercase */
+}
+    .intro-text p{
+        font-size: 1.4em;
+        line-height:1.5em;
+        font-weight: 400;
+    }
+    
+/* slogan */
+.slogan{
+    background-color: #e74c3c;
+}
+    .slogan .btn-gral{
+        background-color: white;
+        color:  #e74c3c;
+        text-align: center;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 2em;
+    }
+
+/* sponsors */
+.sponsors  p{
+    font-size: 1.4em;
+    line-height:1.5em;
+    font-weight: 400;
+
+}
+
+.sponsors img{
+    width: 100%;
+}
+
+/* faqs */
+.accordion p{
+    color: black;
+    font-size: 1.3em;
+}
+
+    .accordion p:before{
+        content: url(../img/icons/icon-plus.png);
+    }
+
+/* call to action  */
+.call-to-action{
+    background-color: #e74c3c;
+}
+ .call-to-action h3:first-child{
+    font-size: 2em;
+ }
+ .call-to-action h3:last-child{
+    font-size: 5em;
+    font-weight: 700;
+ }
+ .call-to-action .box-tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-transform: uppercase;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: -1px 3px 25px -4px rgb(49, 49, 49);
+ }
+
+ .call-to-action .box-tabs .active{
+    color: black;
+    font-weight: 700;
+ }
+
+ @media (width < 768px){
+    .call-to-action .box-tabs h4.active{
+        font-size: 1.2em!important;
+        color: yellow;
+    } 
+ }
+
+ /* Rule#1 */
+
+.red-text{
+    color: #e74c3c;
+    
+}
+
+.rule-lt{
+    font-weight: 700;
+    color: black;
+}
+
+/* Rule#2 */
+
+.black{
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+}
+
+.rule-2 p{
+    display: flex;
+  flex-direction: column;
+  
+
+}
+
+.white-rule2{
+    color: white;
+}
+
+.white-text-h2{
+    color: white;
+    
+}
+
+/* Our products */
+
+.grey{
+background-color: #e4e4e4;
+
+}
+
+.our-p{
+    font-weight:700;
+    font-size: 2.4em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+/* step process */
+
+.step-process{
+    margin-top: 50px;
+}
+
+.texto-central{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.texto-central2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.circles{
+   
+   width: 200px;
+  
+
+}
+
+.step-one{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+   
+   
+}
+
+h4{
+    font-weight: 700;
+}
+
+/* Get in shape now */
+
+.get-in-shape{
+    background-color: #e74c3c;
+}
+
+.get-in-shape-text{
+    font-weight:700;
+    font-size: 2.4em;
+    color: white;
+}
+
+.white-t{
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.text-end{
+    display: flex;
+    justify-content: center;
+}
+
